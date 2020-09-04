@@ -1,3 +1,27 @@
 h1{
     color: red;
 }
+
+.vlr {
+    border-right: 3px solid #A8518A;
+    height: 50px;
+    padding-left: 5px;
+  }
+.vll{
+    border-left: 3px solid #A8518A;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.center-p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.page-borders{
+    padding-left: 40px;
+    padding-right: 40px;
+}
