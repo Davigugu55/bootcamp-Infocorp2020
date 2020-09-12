@@ -80,8 +80,6 @@
   background: #A8518A;
 }
 
-
-
 .btn.btn-square{
   border-radius: 0;
   position: relative;
@@ -133,6 +131,10 @@
   text-align: right;
 
   color: #FFFFFF;
+}
+
+.form-control{
+  border-radius: 0px!important;
 }
 
 footer {

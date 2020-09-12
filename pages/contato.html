@@ -38,7 +38,7 @@
           <img src="../src/pexels-photo-3671235.jpeg" alt="..." class="rounded-circle img-caraio" style="object-fit: cover;">
         </div>
         <div class="col-5" style="padding-top: 4%; padding-right: 7%;">
-          <form>
+          <form action="mailto:contato@maniapetshop.com?subject=Contato%20pelo%20site" method="POST" enctype="text/plain">
             <div class="form-group" style="position: relative; top: 50px;">
               <label for="nomeFormInput" style="
               font-weight: bold;
@@ -46,7 +46,7 @@
               line-height: 29px;              
               color: #A8518A;"
               >Nome</label>
-              <input type="text" class="form-control" id="nomeFormInput" placeholder="">
+              <input type="text" class="form-control" id="name" placeholder="">
             </div>
             <div class="form-group" style="position: relative; top: 50px;">
               <label for="emailFormInput" style="
@@ -54,7 +54,7 @@
               font-size: 25px;
               line-height: 29px;              
               color: #A8518A;">E-mail</label>
-              <input type="email" class="form-control" id="emailFormInput" placeholder="">
+              <input type="email" class="form-control" id="email" placeholder="">
             </div>
             <div class="form-group" style="position: relative; top: 50px;">
               <label for="mensagemFormInput" style="
@@ -62,13 +62,12 @@
               font-size: 25px;
               line-height: 29px;              
               color: #A8518A;">Mensagem</label>
-              <textarea class="form-control" id="mensagemFormInput" rows="7"></textarea>
+              <textarea onkeydown="pressed(event)" class="form-control" id="body" rows="7"></textarea>
             </div>
 
           </form>
         </div>
       </div>
-    </div>
 
 </body>
 
@@ -101,7 +100,7 @@
     </div>
 </div>
   
-  <script src="./js/script.js "></script>
+  <script src="../js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
